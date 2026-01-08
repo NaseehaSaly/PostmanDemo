@@ -17,6 +17,31 @@
 				"url": "https://simple-books-api.click/status"
 			},
 			"response": []
+		},
+		{
+			"name": "https://simple-books-api.click/status",
+			"id": "15c8d711-b6f3-404b-b395-caaeff12536e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://simple-books-api.click/status"
+			},
+			"response": []
+		},
+		{
+			"name": "Get book list",
+			"id": "4de8af8f-e77a-4fda-8fea-7eb00f5cbe9a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
