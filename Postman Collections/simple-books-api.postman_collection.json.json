@@ -1,31 +1,20 @@
 {
 	"info": {
-		"_postman_id": "c56ec5a5-9749-43c2-afae-d4387cd329b2",
+		"_postman_id": "51219ead-758f-4ff0-97d0-7b95197fe70b",
 		"name": "Books",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Book list",
-			"id": "6a17ebdc-a3cb-45a9-8eec-b03565205fe4",
+			"name": "status",
+			"id": "4bb277d2-92ab-428a-9443-3b873d03a68c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Add Book List",
-			"id": "d805c56e-9161-4412-b73d-8d40b9443b56",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://simple-books-api.click/status"
 			},
 			"response": []
 		}
