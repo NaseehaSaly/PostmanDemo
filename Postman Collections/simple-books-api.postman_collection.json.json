@@ -62,7 +62,101 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "094ed94c-6786-4ccd-a85e-edd95a2a0b4c",
+					"name": "Get book list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-books-api.click/books?type=fiction&limit=8",
+							"protocol": "https",
+							"host": [
+								"simple-books-api",
+								"click"
+							],
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "fiction"
+								},
+								{
+									"key": "limit",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "283"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 08 Jan 2026 04:05:27 GMT"
+						},
+						{
+							"key": "X-Amzn-Trace-Id",
+							"value": "Root=1-695f2d07-021650011f555bae6cedc17c;Parent=1f95bcc49ab586fb;Sampled=0;Lineage=1:9ee0f5ed:0"
+						},
+						{
+							"key": "x-amzn-RequestId",
+							"value": "9e29f445-c715-49f1-965e-6905ca86e43d"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token"
+						},
+						{
+							"key": "x-amz-apigw-id",
+							"value": "W2P5OF4HoAMEYMg="
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, PATCH"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 16299bf02327b5cfdddfd9aa7af360d8.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "MAA51-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "ERmxzOHn1K_6DR3erNdM9gzV6lGDGMZidIaSHltoXNFgJJr9c0RUBA=="
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"The Russian\",\n        \"type\": \"fiction\",\n        \"available\": true\n    },\n    {\n        \"id\": 3,\n        \"name\": \"The Vanishing Half\",\n        \"type\": \"fiction\",\n        \"available\": true\n    },\n    {\n        \"id\": 4,\n        \"name\": \"The Midnight Library\",\n        \"type\": \"fiction\",\n        \"available\": true\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Viscount Who Loved Me\",\n        \"type\": \"fiction\",\n        \"available\": true\n    }\n]"
+				}
+			]
 		}
 	]
 }
